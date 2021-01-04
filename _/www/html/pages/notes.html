@@ -1,0 +1,13 @@
+{{> navbar:ios}}
+<div data-page="notes" class="page">
+{{> navbar:android}}
+{{#if @global.android}}
+    <a href="#" class="floating-button color-pink">
+        <i class="icon icon-plus"></i>
+    </a>
+{{/if}}
+    <div class="page-content">
+        <div class="list-block media-list sortable">
+        </div>
+    </div>
+</div>
